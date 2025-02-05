@@ -1,4 +1,146 @@
 :root{
     --first_color:#cc7722;
-    
+    --f2nd_color:#FFFDD0;
+    --textheader:14px;
+    --textlogo:22px;
+}
+
+.fistcontact a{
+    text-decoration: none;
+     color: black;
+     font-weight: 400;
+}
+.fistcontact{
+    font-size: var(--textheader);
+   
+}
+.firslihead{
+padding: 0 16px 0 0px;
+border-right: 1px solid rgba(108, 108, 108, 0.491);
+
+}
+.s2ndlindhead{
+    padding: 0 16px 0 6px;
+    border-right: 1px solid rgba(112, 107, 107, 0.491);
+}
+.s3linehead{
+    padding: 0 0px 0 6px;
+}
+.fitsleftli{
+padding: 0 1rem 0 0;
+border-right: 1px solid rgba(112, 107, 107, 0.491);
+}
+.fitsleftli-a{
+    padding: 0 1rem 0 8px;
+    border-right: 1px solid rgba(112, 107, 107, 0.491);
+}
+.fitsleftli-b{
+    padding: 0 1rem 0 8px;
+    border-right: 1px solid rgba(112, 107, 107, 0.491);
+}
+.fitsleftli-c{
+    padding: 0 1rem 0 8px;
+}
+.logo-card-headerbg{
+  background-color: var(   --first_color);
+  padding: 8px;
+
+}
+.logospanarea{
+  background-color: white;
+
+}
+.fontsarealogosi{
+font-size: 22px;
+font-weight: 700;
+padding: 0 12px;
+color: white;
+}
+.search-area{
+width: 525px;
+height: 40px;
+position: relative;
+}
+.search-area input{
+width: 100%;
+height: 100%;
+border: none;
+outline: none;
+border-radius: 5px;
+padding: 0 2.4rem 0 1rem;
+font-weight: 500;
+}
+.search-area-searbox{
+position: absolute;
+right: 0px;
+top: 50%;
+transform: translateY(-50%);
+padding: 0 1rem 0;
+}
+.notificaion-0{
+font-size: 10px;
+padding:0px 5px;
+border-radius: 6px;
+top: -8px;
+left: 12px;
+}
+.middlexw2nd,.middlexw3nd{
+width: 100%;
+
+}
+.middlexw1nd{
+width: 100%;
+}
+.fa-magnifying-glass{
+color: rgba(128, 128, 128, 0.817);
+font-size: 1.2rem;
+}
+.logo-card-headerbg1sr{
+padding: 10px 8px;
+}
+.imgborderbg{
+  background-color: var(--f2nd_color);
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_titlename{
+font-weight: 600;
+color: black;
+font-size: 14px;
+}
+.product_contity{
+color: gray;
+font-size: 14px;
+}
+.product_header-show{
+height: 52px;
+width: 160px;
+}
+.items-show{
+overflow: auto;
+}
+.items-show::-webkit-scrollbar {
+    display: none;
+}
+.home-iconmenu{
+box-shadow: 0px 4px 8px black;
+width: 40px;
+height: 40px;
+left: 50%;
+transform: translateX(-50%);
+top: -20px;
+
+}
+.home-menu,.search-menu,.catag-menu,.login-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-manubar{
+height: 55px;
+
 }
