@@ -1,6 +1,7 @@
 :root{
     --first_color:#cc7722;
     --f2nd_color:#FFFDD0;
+    --footercolor:#081828;
     --textheader:14px;
     --textlogo:22px;
 }
@@ -131,7 +132,9 @@ width: 40px;
 height: 40px;
 left: 50%;
 transform: translateX(-50%);
-top: -20px;
+top: -29px;
+background-color: white;
+
 
 }
 .home-menu,.search-menu,.catag-menu,.login-menu{
@@ -142,5 +145,51 @@ top: -20px;
 }
 .down-manubar{
 height: 55px;
+box-shadow: 0px 0px 16px 0px #444;
+max-width: 400px;
+margin-inline: auto;
+}
+.containerfluidbgforfooter{
+  background-color: var(--footercolor);
 
+}
+.fa-headset-footerfor{
+font-size: 3rem;
+}
+.firrcollumncolro{
+    color: #FBA707;
+}
+.dfplaue_feas{
+gap: 11px;
+list-style: none;
+padding-left: none;
+}
+.dfplaue_feas li{
+list-style: none;
+}
+.dfplaue_feas a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.dfplaue_feas a:hover{
+transform: translateY(-50px);
+color: rgb(18, 15, 15);
+}
+
+
+.s2ndclheading{
+font-size: 18px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+font-weight: 700;
+}
+.s2ndclheading::after{
+position: absolute;
+height: 1px;
+width: 30px;
+background-color: rgb(165, 161, 161);
+content: "";
+bottom: 0;
+left: 14px;
 }
