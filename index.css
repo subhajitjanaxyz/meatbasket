@@ -146,12 +146,23 @@ background-color: white;
 .down-manubar{
 height: 55px;
 box-shadow: 0px 0px 16px 0px #444;
-max-width: 400px;
+max-width: 500px;
 margin-inline: auto;
+width: 100%;
+position: fixed;
+z-index: 999;
+background-color: white;
+left: 50%;
+transform: translateX(-50%);
+bottom: 2px;
 }
 .containerfluidbgforfooter{
   background-color: var(--footercolor);
+  padding: 40px 0 20px 0;
 
+}
+.containerfluidbgfodfdfrfooter{
+    background-color: var(--footercolor);
 }
 .fa-headset-footerfor{
 font-size: 3rem;
@@ -171,12 +182,17 @@ list-style: none;
     text-decoration: none;
     color: white;
     display: inline-block;
+    transition: all .5s ease-in-out;
+}
+.dfplaue_feas li:hover{
+transform: translatex(10px);
 }
 .dfplaue_feas a:hover{
-transform: translateY(-50px);
-color: rgb(18, 15, 15);
+    color: rgb(124, 114, 114);
 }
-
+.dfplaue_feas li{
+transition: all .5s ease-in-out;
+    }
 
 .s2ndclheading{
 font-size: 18px;
@@ -192,4 +208,156 @@ background-color: rgb(165, 161, 161);
 content: "";
 bottom: 0;
 left: 14px;
+}
+.dfplaue_feas_abc{
+    gap: 11px;
+    list-style: none;
+    padding-left: none;
+    }
+    .dfplaue_feas_abc li{
+        list-style: none;
+        }
+        .dfplaue_feas_abc a{
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            transition: all .5s ease-in-out;
+        }
+.icont4thCALL{
+width: 35px;
+height: 35px;
+  background-color:rgba(255, 255, 255, 0.07);
+  margin-right: 10px;
+  transition: all .1s ;
+
+}
+.icont4thCALLb{
+    width: 40px;
+    height: 35px;
+      background-color:rgba(255, 255, 255, 0.07);
+      margin-right: 10px;
+      transition: all .1s ;
+}
+.containerfluidbgforfooterfg{
+  background-color: #081828;
+  padding: 28px 0;
+
+}
+.textcolrowhite{
+color: #ffd451;
+font-weight: 700;
+}
+.textcoloredcolor{
+font-weight: 500;
+}
+.containerfluidbgforfooterfg::after{
+position: absolute;
+height: .5px;
+width: 80%;
+background-color: rgb(165, 161, 161);
+content: "";
+top: -5px;
+transform: translatex(10%);
+}
+.titleforheadingdx{
+font-size: 19px;
+font-weight: 700;
+padding-top: 24px;
+margin-bottom: 30px;
+}
+.imgfse3123fluid{
+max-width: 340px;
+width: 100%;
+height: 200px;
+
+}
+.imgfse3123fluidff{
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    border: 1px solid rgb(232, 232, 232);
+      background-color:rgb(252, 252, 252);
+      border-radius: 10px;
+      transition: all .2s;
+       
+}
+.imgfse3123fluidff:hover{
+    box-shadow:0px 0px 12px 5px rgb(232, 232, 232) ;
+}
+.cir789ese{
+width: 18px;
+height: 18px;
+
+
+}
+.fa-star{
+font-size: 9px;
+}
+.motttontilena{
+font-weight: 600;
+}
+.cnnun6453{
+font-size: 1.1rem;
+}
+.webclass7978{
+font-size: 12px;
+color: #3E8754;
+font-weight: 700;
+border-bottom: 1px dashed rgb(232, 232, 232);
+}
+.pricetagforbusing{
+font-weight: 900;
+}
+.pricetagforbusing::before{
+content: "";
+height: 5px;
+width: 5px;
+position: absolute;
+left: 0px;
+background-color: black;
+top: 50%;
+transform: translateY(-50%);
+border-radius: 50%;
+}
+.addcart_btn{
+  background-color: var(--first_color);
+  padding: auto;
+  font-weight: 600;
+
+}
+.catagory45s44{
+color: #757F95;
+letter-spacing: 4px;
+font-size: 17px;
+font-weight: 600;
+}
+.caatagroruj4s4s{
+font-size: 34px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+.borxforicon{
+width: 120px;
+height: 120px;
+background-color: var(--f2nd_color);
+margin: 0 auto !important;
+ 
+}
+.boxforicont{
+width: 100%;
+
+
+}
+.fotn54s4s{
+font-weight: 600;
+margin-top: 10px;
+color: black;
+transition: all .3s;
+}
+.fotn54s4s:hover{
+color: blue;
+}
+.fluidxbebg{
+padding: 80px 0;
 }

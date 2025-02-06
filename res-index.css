@@ -6,7 +6,9 @@
 
 
 @media (min-width: 768px) {
-  
+    .titleforheadingdx{
+        font-size: 25px;
+        }
 }
 
 
